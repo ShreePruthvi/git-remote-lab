@@ -1,0 +1,9 @@
+to create READme.md for first time in repo 
+
+  421  echo "# git-remote-lab" >> README.md
+  422  git init
+  423  git add README.md
+  424  git commit -m "first commit"
+  425  git branch -m main
+  426  git remote add origin git@github.com:ShreePruthvi/git-remote-lab.git
+  427  git push -u origin main
